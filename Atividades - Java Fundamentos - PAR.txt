@@ -1,0 +1,35 @@
+Atividades - Java Fundamentos - PARA TREINAREM NESTA SEMANA
+
+1º Criar um sistema para criar um objeto e exibir seus dados. Crie uma classe chamada pessoa com os atributos: nome, idade e cidade. Na classe Principal (Main), instancie um objeto da classe Pessoa. A classe pessoa deve ter um método público chamado exibirDados(), que irá retornar uma frase com as características daquela pessoa.
+
+Incorpore os conceitos de:
+- Encapsulamento;
+- Classe;
+- Atributo;
+- Método;
+- Objeto.
+
+
+2º Crie uma classe chamada Temperatura, nela haverá dois métodos estáticos, onde um terá que converter de Fahrenheit para Celsius e outro método de Celsius para Fahrenheit.
+
+
+
+3º Crie uma classe chamada Aluno contendo os atributos: nome, nota1, nota2 e media.
+
+Haverá uma outra classe com uma lista (pode ser ArrayList, LinkedList ou HashMap) deixe essa listra pública e estática para armazenar vários alunos.
+
+Crie mais uma classe, dessa vez com atributos estáticos para:
+- Cadastrar alunos na lista;
+- Listar (nome, nota1, nota2 e média);
+- Alterar (informar o nome do aluno e as notas);
+- Remover (pode ser através da posição do aluno que está na lista);
+- Estatísticas: Exibir quantidade de alunos com média maior ou igual a 7 e a quantidade das médias inferior a 7.
+
+Na classe Principal (Main) deverá ter um laço de repetição, para que seja feito de maneira indefinida múltiplos cadastros, seleções, alterações, exclusões ou exibição das estatísticas.
+
+A ideia dessa atividade é a criação de um CRUD (Create, Read, Update e Delete).
+
+
+4º Criar um sistema de caixa eletrônico, deverá existir contas em uma lista (agência, conta, nome do cliente e valor). Inicialmente será pedido as credenciais de acesso (agência e conta), em seguida o cliente poderá: sacar, depositar, acessar extrato e consultar empréstimos.
+
+O empréstimo é calculado pelo valor em conta, acima de R$1.000,00 o empréstimo será de 30% sobre o valor da conta, abaixo de R$1.000,00 não poderá ser efetuado empréstimos.
